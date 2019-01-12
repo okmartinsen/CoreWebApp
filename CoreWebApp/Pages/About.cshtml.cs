@@ -8,11 +8,13 @@ namespace CoreWebApp.Pages
 {
     public class AboutModel : PageModel
     {
-        public string Message { get; set; }
+        public string SiteInfo { get; set; }
 
         public void OnGet()
         {
-            Message = "What's my message?";
+            SiteInfo = "About this site";
         }
+
+
     }
 }
